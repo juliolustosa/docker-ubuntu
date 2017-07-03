@@ -2,8 +2,8 @@
 set -e
 
 ## Clear apt-get
-sudo apt-get -qq autoclean
-sudo apt-get -qq autoremove
+apt-get -qq autoclean
+apt-get -qq autoremove
 
 ## Remove build scripts
 rm -rf /build-scripts
