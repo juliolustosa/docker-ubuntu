@@ -1,12 +1,15 @@
 FROM ubuntu:16.04
 MAINTAINER Julio Lustosa "contato@juliolustosa.com.br"
 
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-utils \
     apt-transport-https \
     ca-certificates \
     build-essential \
+    tzdata \
     git-core \
     cron \
     curl \

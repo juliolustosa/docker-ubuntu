@@ -11,6 +11,7 @@ docker pull juliolustosa/ubuntu:16.04
 * Unattended Security Upgrades
 * Git
 * Cron
+* Tzdata (Timezone data)
 * Curl
 
 ## Donation
