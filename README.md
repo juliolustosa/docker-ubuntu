@@ -13,6 +13,8 @@ docker pull juliolustosa/ubuntu:16.04
 * Cron
 * Tzdata (Timezone data)
 * Curl
+* Upstart
+* Monit
 
 ## Donation
 If this project help you reduce time to develop, you can give me a cup of coffee :)

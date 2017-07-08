@@ -14,7 +14,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     cron \
     curl \
     software-properties-common \
-    python-software-properties
+    python-software-properties \
+    upstart \
+    monit
 
 # Upgrade all packages.
 RUN apt-get upgrade -y -o Dpkg::Options::="--force-confold"
