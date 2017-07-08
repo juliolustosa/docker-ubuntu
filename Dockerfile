@@ -14,7 +14,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     cron \
     curl \
     software-properties-common \
-    python-software-properties \
+    python-software-properties
+
+# Install packages with recommends
+RUN apt-get install -y \
     upstart \
     monit
 
